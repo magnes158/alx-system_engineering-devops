@@ -1,6 +1,6 @@
-# Creates a file in /tmp
+# This Puppet manifest creates a file in /tmp
 
-file { '/tmp/holberton':
+file { 'holberton':
   ensure  => file,
   path    => '/tmp/holberton',
   mode    => '0744',
